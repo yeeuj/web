@@ -1,0 +1,98 @@
+header {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0.2)), url(images/kwff.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+
+.custom-navbar {
+  background-color: #000000;
+}
+
+.custom-navbar .nav-link {
+  color: black !important;
+}
+
+.custom-navbar .nav-link:hover {
+  color: hsl(0, 0%, 0%) !important;
+}
+body {
+    padding-top: 70px;
+  }
+
+#topbutton {
+    position: fixed;
+    bottom: 40px;  
+    right: 40px;   
+    width: 50px;
+    height: 50px;
+    z-index: 1000;
+}
+
+
+
+#sns-links {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url(images/sns-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+}
+
+
+.card {
+  background-color: #FEE9D6;
+  box-shadow: 0 4px 20px #34222E;
+  border-radius: 12px;
+}
+.map-container {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.info-box {
+  background: #34222E;
+  padding: 15px;
+  border-radius: 10px;
+  width: 180px;
+  transform: translate(-50%, -50%);
+}
+.footer {
+      background-color: #E2424A;
+      color: #ffffff;
+    }
+    .footer a {
+      color: #ccc;
+      text-decoration: none;
+    }
+    .footer a:hover {
+      color: #fff;
+    }
+    .back-to-top {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      background-color: #222;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      width: 48px;
+      height: 48px;
+      font-size: 20px;
+      z-index: 999;
+    }
+
+body {
+    font-family: "Jua", sans-serif;
+}
+.jua-regular {
+  font-family: "Jua", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+html {
+  scroll-behavior: smooth;
+}
+
